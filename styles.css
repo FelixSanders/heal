@@ -3,24 +3,56 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #a3e2ff;
+    background-color: #ffffff;
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(91, 196, 102);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000d0;
+    border-radius: 10px;
+}
+
 
 header {
-    background: #000000;
+    position: fixed;
+    width: 100%;
+    background: #2c196b;
     color: white;
-    padding: 10px 0;
-    text-align: center;
+    padding: 5px 0;
+    align-items: center; display: flex;
+    transition: transform 0.3s ease, background-color 0.3s ease-in;
 }
 
-header img {
-    margin: 5px;
+.header.light {
+    background: #7d95ff;
 }
 
 .header-logo {
+    height: 2.5em;
+    width: 2.5em;
+    margin: .5em;
+    margin-left: 1em;
     align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease-in;
 }
 
+.header-logo.white {
+    content: url(images/iconWhite.svg);
+}
+
+
+nav {
+    margin-left: 1em;
+}
 nav ul {
     list-style: none;
     padding: 0;
@@ -32,16 +64,8 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
-}
-
-.download-button {
-    background: #ff9800;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
 }
 
 main {
@@ -52,12 +76,18 @@ h2 {
     color: #333;
 }
 
-section {
+#intro {
     background: white;
     margin: 15px 0;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    background: rgba(255, 255, 255, 0);
+    align-items: center;
+    text-align: center;
 }
 
 footer {
