@@ -10,7 +10,7 @@ let size = carouselItems[0].offsetWidth;
 
 function updateCarousel() {
     // Adjust transform based on item width and counter
-    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+    carouselSlide.style.transform = 'translateX(' + (-size * counter - 35) + 'px)';
     console.log(`Counter: ${counter}, Size: ${size}`);
 }
 
