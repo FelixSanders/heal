@@ -79,18 +79,74 @@ h2 {
 }
 
 #fitur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: white;
     color: #000000;
-    margin: 15px 0;
+    margin: 15px auto;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 90%; /* Keeps within browser window width */
 }
 
 #fitur h2 {
     font-size: 2em;
     font-weight: 700;
+    margin-bottom: 1em;
+    text-align: center;
 }
+
+#fitur-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+.browser-frame {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#fitur-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#fitur-description {
+    padding: 20px;
+    font-size: 1em;
+    color: #333;
+    text-align: left;
+    max-width: 400px;
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+    #fitur-content {
+        flex-direction: row; /* Side-by-side layout on larger screens */
+        justify-content: space-around;
+    }
+
+    .browser-frame {
+        max-width: 45%; /* Prevents exceeding browser width */
+    }
+
+    #fitur-description {
+        max-width: 45%; /* Adjusts to match image width */
+    }
+}
+
 
 .carousel {
     position: relative;
