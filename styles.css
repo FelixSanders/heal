@@ -78,6 +78,7 @@ h2 {
 
 #intro {
     background: white;
+    color: #51d4f5;
     margin: 15px 0;
     padding: 15px;
     border-radius: 5px;
@@ -85,9 +86,13 @@ h2 {
 }
 
 #home {
+    margin-top: 100px;
     background: rgba(255, 255, 255, 0);
     align-items: center;
     text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
