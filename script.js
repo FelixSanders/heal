@@ -6,11 +6,11 @@ const prevButton = document.getElementById('prev');
 let counter = 0;
 
 // Set the size dynamically based on the first item’s width
-let size = carouselItems[0].offsetWidth;
+let size = carouselItems[0].offsetWidth + 10;
 
 function updateCarousel() {
     // Adjust transform based on item width and counter
-    carouselSlide.style.transform = 'translateX(' + (-size * counter - 35) + 'px)';
+    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
     console.log(`Counter: ${counter}, Size: ${size}`);
 }
 
