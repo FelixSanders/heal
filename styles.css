@@ -86,7 +86,7 @@ h2 {
     color: #000000;
     margin: 15px auto;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 3em;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 90%; /* Keeps within browser window width */
 }
@@ -179,6 +179,103 @@ h2 {
     display: flex;
     flex-direction: column;
 }
+
+/* Styles for the Kenapa Memilih section */
+#kenapa-memilih {
+    background: #bbc8ff; /* Soft yellow background */
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 1em;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+}
+
+#kenapa-memilih h2 {
+    font-size: 2em;
+    color: #000000; /* Darker orange for contrast */
+    text-align: center;
+}
+
+#kenapa-memilih ul {
+    list-style-type: square; /* Square bullets */
+    padding-left: 20px;
+}
+
+/* Styles for the Tentang Kami section */
+#tentang-kami {
+    background: #cfe9f5; /* Light blue background */
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 1em;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+}
+
+#tentang-kami h2 {
+    font-size: 2em;
+    color: #000000; /* Dark blue for text */
+    text-align: center;
+}
+
+#tentang-kami p {
+    color: #000000; /* Slightly lighter blue for paragraph text */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Styles for the Tahapan Pengembangan section */
+#pengembangan {
+    background: #e3f2fd; /* Lightest blue background */
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 1em;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+}
+
+#pengembangan h2 {
+    font-size: 2em;
+    color: #000000; /* Bright blue for heading */
+    text-align: center;
+}
+
+#pengembangan ul {
+    list-style-type: none; /* No bullets */
+    padding-left: 0;
+}
+
+#pengembangan li {
+    background: #bbdefb; /* Light blue for list items */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 0.5em; /* Rounded corners */
+}
+
+/* Styles for the Kontak Kami section */
+#kontak {
+    background: #7e87ff; /* Soft orange background */
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 1em;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+}
+
+#kontak h2 {
+    font-size: 2em;
+    color: #000000; /* Darker orange */
+    text-align: center;
+}
+
+#kontak p {
+    text-align: center; /* Center text */
+    color: #000000; /* Dark brown for text */
+}
+
+#kontak a {
+    color: #ffffff; /* Match link color to heading */
+    text-decoration: underline; /* Underline links */
+}
+
 
 footer {
     text-align: center;
