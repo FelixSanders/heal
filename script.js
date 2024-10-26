@@ -10,3 +10,12 @@ window.addEventListener("scroll", function () {
     headerlogo.classList.toggle("white", shouldToggle);
 
 });
+
+headerlogo.addEventListener('click', function () {
+
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+
+});
