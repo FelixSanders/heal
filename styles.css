@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #fff4e2;
 }
 
 ::-webkit-scrollbar {
@@ -77,9 +77,9 @@ h2 {
     color: #333;
 }
 
-#intro {
+#fitur {
     background: white;
-    color: #51d4f5;
+    color: #000000;
     margin: 15px 0;
     padding: 15px;
     border-radius: 5px;
