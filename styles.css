@@ -294,6 +294,8 @@ h2 {
 
 #sdgs ul {
     list-style-type: none;
+    margin: 5px;
+    padding: 10px;
 }
 
 #sdgs li {
